@@ -1,0 +1,15 @@
+
+http{//sss
+     include=mime.types;
+     default_type="application/octet-stream";
+     server{
+           listen=80;
+           server_name="localhost";
+           location{
+           pre="" #路径前缀
+           root="" #路径
+           http_proxy="" #反向代理
+           index="" #访问首页路径
+                    }
+           }
+     }
